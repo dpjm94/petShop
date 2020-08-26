@@ -1,0 +1,20 @@
+.alert__danger{
+    color: #ff0000;
+}
+
+.alert__info{
+    color: #000fff;
+}
+
+.alert__success{
+    color: rgba(255, 153, 0);
+}
+
+.alert__warning{
+    color: rgba(0,0,0,.5);
+    text-decoration: underline;
+}
+
+.alert__warning:hover{
+    color: rgb(255, 153, 0);
+}

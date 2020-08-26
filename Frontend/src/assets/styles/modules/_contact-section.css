@@ -1,0 +1,56 @@
+.contact-section{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-section__btn-container{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.contact-section__idea{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.contact-section__get{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.contact-section__email{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    margin-top: 30px;
+}
+
+.contact-section__phone{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+@media (min-width: 382px){
+    .contact-section__btn-container{
+        text-align: left;
+    }
+    .contact-section__idea{
+        text-align: left;
+    }
+}
+
+@media (min-width: 600px){
+    .contact-section{
+        margin-top: 60px;
+    }
+    .contact-section__idea{
+        font-size: 1.5rem;
+    }
+}
+

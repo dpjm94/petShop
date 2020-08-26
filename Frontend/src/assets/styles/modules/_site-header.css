@@ -1,0 +1,45 @@
+.site-header{
+    padding: 10px 0 0;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
+
+.site-header__logo{
+    display: none;   
+}
+
+.site-header__link{
+    text-decoration: none;
+    color: rgba(0,0,0,0.6);
+}
+
+.site-header__link:hover{
+    color: rgba(255, 153, 0);
+}
+
+.site-header__menu-content{
+    transform: scale(1);
+    transition: all .3s ease-out;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+@media (min-width: 600px){
+    .site-header__logo{
+        display: block;
+        font-size: 1.1rem;
+        position: absolute;
+        top: 0;
+    }
+
+    .site-header__menu-content{
+        transform: scale(1);
+        transition: all .3s ease-out;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+}
+

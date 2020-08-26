@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Brignell Sunday', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.app {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.app__more{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.or{
+    padding: 0 10px 0 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}

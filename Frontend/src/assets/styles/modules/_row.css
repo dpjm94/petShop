@@ -1,0 +1,142 @@
+.row{
+   display: grid;
+   grid-gap: 0.875rem;
+   grid-template-columns: repeat(1, 1fr);
+}
+
+.row__related{
+   display: inline-grid;
+   grid-gap: 0.875rem;
+   grid-template-columns: repeat(1, 1fr);
+}
+
+.row__check{
+   display: grid;
+   grid-gap: 0.875rem;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.row--gutters-small{
+    margin-right: -20px;
+}
+
+.row--gutters-large{
+    margin-right: -30px;
+}
+
+.row--center{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row--gutters-small > div{
+    padding-right: 18px;
+}
+
+.row--gutters-large > div{
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+
+.row__dashboard{
+    margin-right: -20px;
+}
+
+.row__dashboard > div{
+    padding-right: 20px;
+}
+
+.row__dashboard_col-3{
+    float: left;
+    width: 100%;
+}
+
+.row__dashboard_col-9{
+    float: left;
+    width: 100%;
+}
+
+.row__product_col-6{
+    width: 100%;
+}
+
+.row_product_col-12{
+    width: 50%;
+}
+
+.row__related_header{
+   display: flex;
+   width: 100%;
+   text-align: left;
+   margin-bottom: 10px;
+   color: rgba(0, 0, 0, 0.85);
+   font-weight: bold;
+   font-size: 0.875rem;
+   line-height: 1.5715;
+}
+
+@media (min-width: 320px){
+    .row--gutters-small > div{
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 355px){
+    .row{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: .2rem;
+    }
+    .row__related{
+        grid-gap: 0.2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+   
+}
+
+@media (min-width: 520px){
+    .row__dashboard_col-3{
+        float: left;
+        width: 33.33%;
+    }
+    
+    .row__dashboard_col-9{
+        float: left;
+        width: 66.66%;
+    }
+}
+
+@media (min-width: 600px){
+    .row{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .row__related{
+        grid-gap: 0.2rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media (min-width: 800px){
+    .row{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .row__related{
+        grid-gap: 0.2rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .row__product_col-6{
+        float: left;
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+

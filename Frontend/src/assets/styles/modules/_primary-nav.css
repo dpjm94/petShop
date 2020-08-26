@@ -1,0 +1,36 @@
+.primary-nav{
+}
+
+.primary-nav--pull-right{
+    float: none;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+li:last-child{
+    padding-right: 10px;
+}
+
+.primary-nav__link{
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    background: transparent;
+}
+
+@media (min-width: 600px){
+    .site-header__menu-icon{
+        opacity: 0;
+    }
+
+    .primary-nav--pull-right{
+        float: right;
+    }
+}
+
+

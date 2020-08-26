@@ -1,0 +1,82 @@
+.card{
+    position: relative;
+    max-width: 300px;
+}
+
+.card__image{
+    max-width: 300px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.card__product_image{
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.card__body{
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    text-align: left;
+    transition: all .5s ease-out;
+}
+
+.card__header_dashboard{
+    font-size: 1.2rem;
+    color: rgba(0,0,0,0.7);
+    font-weight: 400;
+    padding: 5px 20px;
+    transition: all .3s ease-out;
+    border: 1px solid rgba(0,0,0,.2);
+    text-align: left;
+}
+
+.card__header{
+    font-size: 0.875rem;
+    color: rgba(0,0,0,0.7);
+    font-weight: 400;
+    padding: 5px 0;
+    transition: all .3s ease-out;
+}
+
+.card__price{
+    padding: 5px 0 15px 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(0,0,0,.8);
+    transition: all .5s ease-out;
+}
+
+.card__dashboard{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.card__link{
+    color: rgba(0,0,0,0.5);
+}
+
+.card__link:hover{
+    color: rgba(255, 153, 0);
+}
+
+.card__list-group-item{
+   float: none;
+   display: flex;
+   border: 1px solid rgba(0,0,0,0.2);
+   margin-top: -1px;
+   padding: 5px 20px;
+   color: rgba(0,0,0,0.8);
+   font-size: 1rem;
+}
+
+.card__list-group-item:last-child{
+    color: rgba(255, 153, 0);
+ }
+
+@media (min-width: 355px){
+    .card__body{
+        text-align: start;
+    }
+}

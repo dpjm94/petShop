@@ -1,0 +1,49 @@
+.form-check {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.form-check__small{
+  max-width: 500px;
+}
+
+.form-check__group{
+  padding: 10px 0;
+  text-align: left;
+}
+
+.form-check__group_product{
+  padding: 10px 0;
+  text-align: left;
+}
+
+.form-check__control{
+  width: 100%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  border: 1px solid rgba(0,0,0,.2);
+}
+
+.form-check__label{
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.25rem;
+  border-radius: 2rem;
+  min-width: 50px;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.form-check__background{
+  background-color: rgba(0,0,0,.7);
+  max-width: 400px;
+  padding: 7px 20px;
+  color: #fff;
+}
+
+
+
+
